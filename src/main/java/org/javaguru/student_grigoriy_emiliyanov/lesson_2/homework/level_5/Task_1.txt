@@ -1,0 +1,17 @@
+Заставьте эту программу работать!
+
+class SizeMatters {
+    public static void main(String[] args) {
+        system.out.println("Sorry, I have an errors.");
+        system.out.println("Please fix me!")
+    }
+}
+
+Цель этого задания: обратить ваше внимание на названия
+классов в Java и дать понять, что синтаксис языка программирования
+Java чувствителен к регистру букв (различает большие и маленькие буквы).
+
+#### Поддержка, вопросы и обратная связь по курсу:
+* [Телеграмм группа курса](https://t.me/+mvRhG9YECTlkZjQ0)
+* [Телеграмм автора курса] (@javagurulv)
+* [Емейл автора курса] (javagurulv@gmail.com)
