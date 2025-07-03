@@ -25,4 +25,12 @@ class BankAccount {
     public int getMoneyAmount() {
         return this.money;
     }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
+    public void setMoneyAmount(int amount) {
+        this.money = amount;
+    }
 }

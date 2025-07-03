@@ -13,5 +13,11 @@ public class BankAccountApplication {
         System.out.println("Bank account 1:");
         System.out.println("Owner: " + bankAccount1.getOwner());
         System.out.println("Money amount: " + bankAccount1.getMoneyAmount());
+
+        bankAccount1.setOwner("Petr");
+        bankAccount1.setMoneyAmount(123);
+        System.out.println("Bank account 1:");
+        System.out.println("Owner: " + bankAccount1.getOwner());
+        System.out.println("Money amount: " + bankAccount1.getMoneyAmount());
     }
 }
