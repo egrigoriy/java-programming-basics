@@ -17,4 +17,12 @@ class BankAccount {
     public BankAccount(int money) {
         this.money = money;
     }
+
+    public String getOwner() {
+        return this.owner;
+    }
+
+    public int getMoneyAmount() {
+        return this.money;
+    }
 }
