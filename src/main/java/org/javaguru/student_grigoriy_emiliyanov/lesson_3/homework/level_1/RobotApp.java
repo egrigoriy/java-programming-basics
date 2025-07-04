@@ -7,5 +7,10 @@ public class RobotApp {
 
         System.out.println("My name is: " + vanya.getName());
         System.out.println("My name is: " + vasya.getName());
+
+        vanya.setName("Ivan");
+        vasya.setName("Vasilii");
+        System.out.println("My name now is: " + vanya.getName());
+        System.out.println("My name now is: " + vasya.getName());
     }
 }
