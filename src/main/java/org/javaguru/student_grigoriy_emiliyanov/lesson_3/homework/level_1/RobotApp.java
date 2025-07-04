@@ -4,5 +4,8 @@ public class RobotApp {
     public static void main(String[] args) {
         Robot vanya = new Robot("Vania");
         Robot vasya = new Robot("Vasya");
+
+        System.out.println("My name is: " + vanya.getName());
+        System.out.println("My name is: " + vasya.getName());
     }
 }
