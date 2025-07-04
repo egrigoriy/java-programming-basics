@@ -1,4 +1,4 @@
-package org.javaguru.mentor.lesson_4_if_statement.lessoncode.tasks;
+package org.javaguru.student_grigoriy_emiliyanov.lesson_4.lessoncode;
 
 import java.util.Scanner;
 
