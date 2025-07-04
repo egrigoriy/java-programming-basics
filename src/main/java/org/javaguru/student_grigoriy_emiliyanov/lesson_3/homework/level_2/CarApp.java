@@ -2,8 +2,19 @@ package org.javaguru.student_grigoriy_emiliyanov.lesson_3.homework.level_2;
 
 public class CarApp {
     public static void main(String[] args) {
-        Car car1 = new Car("BMW", "black", 120000);
-        Car car2 = new Car("Toyota", "white", 321341);
-        Car car3 = new Car("Lada", "cherry", 1234);
+        Car bmw = new Car("BMW", "black", 120000);
+        Car toyota = new Car("Toyota", "white", 321341);
+        Car lada = new Car("Lada", "cherry", 1234);
+
+        System.out.println(bmw);
+        System.out.println();
+        System.out.println(toyota);
+        System.out.println();
+        System.out.println(lada);
+        System.out.println();
+
+        bmw.setColor("green");
+        bmw.setPrice(20000);
+        System.out.println(bmw);
     }
 }

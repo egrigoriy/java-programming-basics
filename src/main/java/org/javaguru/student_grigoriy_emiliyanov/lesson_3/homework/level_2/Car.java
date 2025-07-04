@@ -10,4 +10,35 @@ public class Car {
         this.color = color;
         this.price = price;
     }
+
+    public String getMaker() {
+        return maker;
+    }
+
+    public void setMaker(String maker) {
+        this.maker = maker;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Maker: " + this.maker + "\n" +
+                "Color: " + this.color + "\n" +
+                "Price: " + "USD " + this.price;
+    }
 }
