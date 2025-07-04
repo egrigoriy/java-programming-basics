@@ -16,4 +16,10 @@ public class Question {
     public boolean getAnswer() {
         return answer;
     }
+
+    @Override
+    public String toString() {
+        return "Question: " + this.text + "\n" +
+                "Answer: " + this.answer;
+    }
 }
