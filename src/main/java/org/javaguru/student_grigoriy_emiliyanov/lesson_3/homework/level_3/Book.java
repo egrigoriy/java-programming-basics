@@ -11,4 +11,20 @@ public class Book {
         this.chapter1 = chapter1;
         this.chapter2 = chapter2;
     }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public Chapter getChapter1() {
+        return chapter1;
+    }
+
+    public Chapter getChapter2() {
+        return chapter2;
+    }
 }

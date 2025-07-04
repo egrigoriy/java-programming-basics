@@ -8,4 +8,10 @@ public class Chapter {
         this.title = title;
         this.text = text;
     }
+
+    @Override
+    public String toString() {
+        return "Title: " + title + "\n" +
+                "Text: " + text + "\n";
+    }
 }
