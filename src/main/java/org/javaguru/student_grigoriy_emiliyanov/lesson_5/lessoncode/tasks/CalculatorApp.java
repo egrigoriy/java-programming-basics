@@ -9,12 +9,15 @@ public class CalculatorApp {
         System.out.println("Enter your number:");
         int number = scanner.nextInt();
         System.out.println("Is my number event? Answer: " + calculator.isEven(number));
+        System.out.println("Is my number odd? Answer: " + calculator.isOdd(number));
         System.out.println("Enter your number:");
         number = scanner.nextInt();
         System.out.println("Is my number event? Answer: " + calculator.isEven(number));
+        System.out.println("Is my number odd? Answer: " + calculator.isOdd(number));
         System.out.println("Enter your number:");
         number = scanner.nextInt();
         System.out.println("Is my number event? Answer: " + calculator.isEven(number));
+        System.out.println("Is my number odd? Answer: " + calculator.isOdd(number));
     }
 
 }
