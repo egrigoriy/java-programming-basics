@@ -7,4 +7,8 @@ public class Calculator {
     boolean isOdd(int number) {
         return number % 2 != 0;
     }
+
+    double findAverage(int a, int b) {
+        return (a + b) / 2.0;
+    }
 }
