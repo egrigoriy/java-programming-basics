@@ -1,0 +1,7 @@
+package org.javaguru.student_grigoriy_emiliyanov.lesson_5.lessoncode.tasks;
+
+public class Calculator {
+    boolean isEven(int number) {
+        return number % 2 == 0;
+    }
+}
