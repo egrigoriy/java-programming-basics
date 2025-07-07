@@ -8,5 +8,6 @@ public class MaxNumberApp {
         int n3 = -1;
         System.out.println("Max of " + n1 + " and " + n2 + " is " + maxNumber.findMax(n1, n2));
         System.out.println("Max of " + n1 + " and " + n3 + " is " + maxNumber.findMax(n1, n3));
+        System.out.println("Max of " + n1 + " and " + n2 + " and " + n3 + " is " + maxNumber.findMax(n1, n2, n3));
     }
 }
